@@ -1,0 +1,78 @@
+.header-home__background {
+  background: $super_soft_gradient;
+  background-repeat: no-repeat;
+}
+.header-home__background-h {
+  background-image: url(../img/svg/Homepage/Assets/symbolh.svg);
+  // background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.header-home {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  grid-template-rows: min-content min-content;
+}
+.header-home__top {
+  grid-column: span 2;
+  display: flex;
+  justify-content: space-between;
+  background-color:  rgba(245, 245, 250, 0.2);
+  margin: 0 -15px;
+  padding-top: 11.5px;
+  padding-bottom: 8px;
+}
+.header-home__tell {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: right;
+  color: #FFFFFF;
+  padding-right: 15px;
+  margin-top: 3px;
+}
+.header-home__navigation-word,
+.header-home__top-adress, 
+.header-home__logo-fb {
+  display: none;
+}
+.header__logo {
+  margin-left: -2px;
+  margin-bottom: 127px;
+}
+.header-home__lang {
+  display: flex;
+  margin-bottom: 1px;
+}
+.header-home__lang li {
+  display: inherit;
+}
+.header-home__lang li:nth-child(1) {
+  padding-left: 13px;
+}
+.header-home__lang li a{
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 5px 7px;
+  border-radius: 8px;
+  &:hover {
+    background-color: $accent;
+  }
+}
+.header-home__burger-bottom {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 11px;
+  padding-right: 0px;
+}
+.header-home__tittle {
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-left: 64px;
+  padding-bottom: 157px;
+}

@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  font-family: 'Montserrat';
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+.container {
+  max-width: 1350px;
+  min-width: 375px;
+  // border: 1px solid red;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+a {
+  text-decoration: none;
+}
+ul{
+  padding-left: 0;
+  list-style: none;
+}
