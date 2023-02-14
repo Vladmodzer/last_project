@@ -1,0 +1,22 @@
+.header-top__language-swith {
+  display: flex;
+}
+.header-top__language-swith a {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  padding: 5px 7px;
+  display: inline-block;
+
+  
+}
+.language-swith__link:not(:last-of-type):hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+.language-swith__link:nth-child(3) {
+  background-color: $accent;
+  border-radius: 8px;
+}

@@ -2,11 +2,12 @@
   box-sizing: border-box;
   margin: 0;
 }
-body {
-  font-family: 'Montserrat';
+.body-home {
+  font-family: 'Montserrat', 'Arial', sans-serif;
   font-weight: 700;
   font-style: normal;
   font-display: swap;
+  min-width: 375px;
 }
 .container {
   max-width: 1350px;
