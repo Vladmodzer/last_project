@@ -1,0 +1,17 @@
+.main__dots {
+  display: flex;
+  margin-top: 29px;
+  justify-content: center;
+  padding-bottom: 62px;
+}
+.dot {
+  width: 16px;
+  height: 16px;
+  background: #24A3FF;
+  opacity: 0.2;
+  border-radius: 50px;
+  margin-left: 16px;
+  &:nth-child(1) {
+    margin-left: 0;
+  }
+}

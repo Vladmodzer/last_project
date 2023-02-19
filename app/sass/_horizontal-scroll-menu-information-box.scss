@@ -1,0 +1,28 @@
+
+.horizontal-scroll-menu-information button {
+  border: transparent;
+  color: #B3B3BA;
+  background-color: transparent;
+  white-space: nowrap;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 37px;
+}
+.horizontal-scroll-menu-information button:hover {
+  background: linear-gradient(90.13deg, #EF8080 0.84%, #F0145A 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  
+}
+.horizontal-scroll-menu-information {
+  display: flex;
+  overflow-x:auto;
+  margin-top: 55px;
+  padding-bottom: 30px;
+  &::-webkit-scrollbar { 
+    display: none;
+    }
+}

@@ -6,6 +6,28 @@
   background-position: center top, center center;
   background-size: 524px 600px, cover;
   background-color: $main;
+  border-radius: 0 0 12px 12px;
+  position: relative;
+  &::after {
+    content: '';
+    background-color: #CACADB;
+    height: 10px;
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    right: 20px;
+    border-radius: 0 0 12px 12px;
+  }
+  &::before {
+    content: '';
+    background-color: #E7E7F2;
+    height: 20px;
+    position: absolute;
+    bottom: -20px;
+    left: 40px;
+    right: 40px;
+    border-radius: 0 0 12px 12px;
+  }
 }
 .header-home {
   display: grid;

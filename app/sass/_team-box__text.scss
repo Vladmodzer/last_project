@@ -1,0 +1,35 @@
+.team-box__text {
+  background: #F5F5FA;
+  border-radius: 0 0 12px 12px;
+}
+.text__team {
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #24A3FF;
+}
+.text__text {
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-bottom: 29px;
+}
+.text__name {
+  font-size: 16px;
+  line-height: 20px;
+  color: #B3B3BA;
+  max-width: 255px;
+  margin-bottom: 5px;
+}
+.text__major {
+  font-size: 14px;
+  line-height: 22px;
+  color: #B3B3BA;
+}
+.team-wrapper {
+  padding: 30px;
+}

@@ -1,0 +1,31 @@
+.They-trust-us__box {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.box__logo {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+._logo-color-01 {
+  background: #1C4280;
+}
+
+._logo-color-02 {
+  background: #143646;
+}
+._logo-color-03 {
+  background: #FD9339;
+}
+._logo-color-04 {
+  background: #9E4DC3;
+}
+._logo-color-05 {
+  background: #FD9339;
+}
+._logo-color-06 {
+  background: #E2E2E4;
+}
+

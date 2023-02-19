@@ -1,0 +1,62 @@
+.we-do-better-cards {
+  padding: 0 15px;
+}
+.we-do-better-cards__tittle {
+  font-size: 30px;
+  line-height: 37px;
+  background: linear-gradient(90.13deg, #F0145A 0.84%, #EF8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  padding-bottom: 30px;
+  margin-top: 9px;
+
+}
+.card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 6;
+  padding-bottom: 30px;
+}
+.sqare {
+  width: 92px;
+  height: 92px;
+  border-radius: 24px;
+  background-color: white;
+  background-image: url(../img/svg/cards/Homepage/Assets/Services/Ecommercecard-01.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 30px;
+}
+.card-image-02 {
+  background-image: url(../img/svg/cards/Homepage/Assets/Services/Supportcard-02.svg);
+}
+.card-image-03 {
+  background-image: url(../img/svg/cards/Homepage/Assets/Services/Coproratecard-03.svg);
+}
+.card-image-04 {
+  background-image: url(../img/svg/cards/Homepage/Assets/Services/Trustcard-04.svg);
+}
+.card-image-05 {
+  background-image: url(../img/svg/cards/Homepage/Assets/Services/Protectioncard-05.svg);
+}
+.card-image-06 {
+  background-image: url(../img/svg/cards/Homepage/Assets/Services/Courtcard-06.svg);
+}
+.card__link {
+  font-size: 22px;
+  line-height: 27px;
+  color: $regular;
+  display: inline-block;
+  width: 300px;
+}
+.card__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-bottom: 30px;
+  padding: 0 15px;
+  width: 315px;
+  padding-top: 26px;
+}

@@ -1,0 +1,17 @@
+.to-tell__tittle-box {
+  padding: 0 15px;
+}
+.to-tell {
+  background: #F5F5FA;
+  padding-bottom: 30px;
+}
+
+.to-tell__card {
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 30px;
+}
+.card__text-block {
+  row-gap: 30px;
+}
