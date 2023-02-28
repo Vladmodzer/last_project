@@ -43,3 +43,36 @@
   display: flex;
   align-items: center;
 }
+.header-menu__not-mobile {
+  background: white;
+  padding: 12px;
+  position: absolute;
+  right: 0;
+  width:100%;
+  top: 0px;
+  z-index: 1;
+}
+.header-menu__not-mobile li:not(:last-child) {
+  margin-bottom: 15px;
+
+}
+.header-menu__not-mobile a {
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: #24A3FF;
+  border-radius:12px;
+  display: block;
+  padding: 7px 15px;
+  background-color: #F5F5FA;
+
+}
+.not-mobile_none {
+  right:100%;
+}
+.logo-adaptive {
+  height: auto;
+  max-width:100%;
+  
+}
+
