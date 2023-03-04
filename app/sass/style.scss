@@ -1,3 +1,4 @@
+@import 'node_modules/slick-carousel/slick/slick.scss';
 @import 'variables';
 @import 'fonts';
 @import 'start';
@@ -22,3 +23,10 @@
 @import 'footer__box';
 @import 'adaptive';
 @import 'horizintal-idea-wrapper';
+@import 'about__header-top-background';
+@import 'about-adaptive-768px';
+@import 'about__header-home__background';
+@import 'about__header-home';
+@import 'about__header-hamburger';
+@import 'about__header-logo-box';
+@import 'slider-item'
